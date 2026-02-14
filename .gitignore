@@ -1,0 +1,24 @@
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+
+# --- Python cache / compiled files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+
+# --- VS Code / IDE ---
+.vscode/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---
+*.log
