@@ -84,45 +84,20 @@ The Streamlit app provides:
 - Display of evaluation metrics
 - Confusion matrix and classification report
 
+# 8) How to Run Locally
 
-## 8) Project Structure
-
-ML_BITS_assignment/
-├─ app.py
-├─ requirements.txt
-├─ README.md
-├─ data/
-│  ├─ breast_cancer_full.csv
-│  ├─ test_20_percent.csv
-│  ├─ expected_schema.json
-│  └─ eda_summary.csv
-└─ model/
-   ├─ __init__.py
-   ├─ utils.py
-   ├─ train_all.py
-   ├─ logistic_regression.py
-   ├─ decision_tree.py
-   ├─ knn.py
-   ├─ naive_bayes.py
-   ├─ random_forest.py
-   ├─ xgboost_model.py
-   ├─ metrics_comparison.csv
-   └─ *.pkl  (saved models + scaler)
-
-# 9) How to Run Locally (BITS VM / Local)
-
-# 9.1 Create and activate venv
+# 8.1 Create and activate venv
 
 python3 -m venv venv
 source venv/bin/activate
 
 
-# 9.2 Install dependencies
+# 8.2 Install dependencies
 
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 
-# 9.3 Train models and generate artifacts
+# 8.3 Train models and generate artifacts
 
 python -m model.train_all
 
@@ -131,11 +106,11 @@ This generates:
 - 'model/metrics_comparison.csv'
 - 'data/test_20_percent.csv' (20% test split for the app)
 
-# 9.4 Run Streamlit app
+# 8.4 Run Streamlit app
 
 python -m streamlit run app.py
 
-# 10) Links
+# 9) Links
 
 - GitHub Repository: https://github.com/sannayila-sahithi/ML_BITS_assignment/tree/main 
 - Live Streamlit App: https://mlbitsassignment-sahithi.streamlit.app/ 
