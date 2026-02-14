@@ -135,7 +135,7 @@ This generates:
 
 python -m streamlit run app.py
 
-# 10) Links (Fill these)
+# 10) Links
 
-- GitHub Repository:
-- Live Streamlit App:
+- GitHub Repository: https://github.com/sannayila-sahithi/ML_BITS_assignment/tree/main 
+- Live Streamlit App: https://mlbitsassignment-sahithi.streamlit.app/ 
